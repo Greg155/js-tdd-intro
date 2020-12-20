@@ -1,5 +1,4 @@
 const assert = require("assert");
-assert.strictEqual(Math.max(1, 5, 9), 9);
 
 const capitalizeFirstLetters = (input) => {
   let output = "";
@@ -15,7 +14,6 @@ const capitalizeFirstLetters = (input) => {
   }
 };
 
-capitalizeFirstLetters("Hey ");
 // TDD
 
 // Check that capitalizeFirst is a function
